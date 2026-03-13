@@ -13,11 +13,11 @@ description:
   it:
     localisedName: SISO BI-ARGO
     shortDescription: SISO BI-ARGO
-    longDescription: "SISO BI-ARGO"
+    longDescription: SISO BI-ARGO
     documentation: https://github.com/RegioneUmbria-RCB/SISO-BI-ARGO
     apiDocumentation: https://github.com/RegioneUmbria-RCB/SISO-BI-ARGO
     features:
-      - SISO BI-ARGO
+      SISO BI-ARGO
 legal:
   license: EUPL-1.2
 maintenance:
