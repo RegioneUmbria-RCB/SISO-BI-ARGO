@@ -1,23 +1,29 @@
-publiccodeYmlVersion: 0.5.0
+# https://github.com/publiccodeyml/publiccode.yml
+publiccodeYmlVersion: "0"
 name: SISO BI-ARGO
-applicationSuite: Web Application
 url: https://github.com/RegioneUmbria-RCB/SISO-BI-ARGO
 releaseDate: 2017-04-15
 platforms:
   - web
-organisation:
-  uri: "urn:x-italian-pa:r_umbria"
 developmentStatus: stable
 softwareType: standalone/web
 description:
   it:
     localisedName: "SISO BI-ARGO"
-    shortDescription: "SISO BI-ARGO"
-    longDescription: "SISO BI-ARGO"
+    shortDescription: "Modulo di Business Intelligence del sistema informativo sanitario SISO per la Regione Umbria"
+    longDescription: >
+      SISO BI-ARGO e' il modulo di Business Intelligence del Sistema
+      Informativo Sanitario Ospedaliero (SISO) sviluppato per la Regione
+      Umbria. Il sistema integra i dati sanitari provenienti dal gestionale
+      ARGO attraverso processi ETL realizzati con Talend Open Studio,
+      alimentando un data warehouse dedicato all'analisi e al reporting
+      clinico-amministrativo. Consente alle strutture sanitarie regionali di
+      produrre report, cruscotti e analisi statistiche sui dati ospedalieri.
     documentation: https://github.com/RegioneUmbria-RCB/SISO-BI-ARGO
-    apiDocumentation: https://github.com/RegioneUmbria-RCB/SISO-BI-ARGO
     features:
-      - 
+      - Integrazione ETL con il gestionale ARGO
+      - Data warehouse sanitario
+      - Reporting clinico-amministrativo
 legal:
   license: EUPL-1.2
 maintenance:
@@ -29,8 +35,3 @@ localisation:
   localisationReady: true
   availableLanguages:
     - it
-IT:
-  countryExtensionVersion: "1.0"
-  piattaforme:
-    spid: true
-    cie: true
